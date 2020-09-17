@@ -1,0 +1,59 @@
+/*Farben: #565c73, #CDD4DE*/
+
+/*TENGO qUE REPETIRLO, PERO USANDO vh en: margins,  y rem en font-sizes*/
+
+body {
+    background-image: url("https://www.supah.it/dribbble/008/008.jpg"); /* background (sin image)*/
+    font-family: 'Roboto', sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden; /*nicht scrollen*/
+    /*version Georg, aquí el color: #CDD4DE*/
+}
+
+header {
+    color: #565c73;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 700;
+    margin-top: .5vh; /*vh bezieht sich auf meines Bildschirms*/
+}
+
+
+h1 {
+    font-size: 200px; /*Georg: 5rem*/
+    color: #cdd4de63;
+    margin: 200px 0 10px;
+}
+
+h2 {
+    color: #cdd4de9b;
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    color: #cdd4de2f;
+}
+
+footer {
+    margin-top: 180px;
+    /* height: 100px; */
+}
+a {
+    border: 2px solid #cdd4de2f;
+    color: #cdd4de2f;
+    border-radius: 10px; /*Georg: .3rem
+    padding: 5px; /*georg: 1rem 2rem*/
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    /* background: rgba(192, 192, 192, 0.124); */
+    background: #0000001a; /*otro ejemplo*/
+}
